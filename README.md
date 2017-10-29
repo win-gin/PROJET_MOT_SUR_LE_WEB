@@ -1,4 +1,4 @@
-## AI_PluriTAL
+## LA VIE MULTILINGUE DES MOTS SUR LE WEB
 [INALCO M1S1 Projet Encadré](http://www.tal.univ-paris3.fr/cours/masterproj.htm)
 
 Nous sommes un groupe de deux étudiants en Master 1 Traitement Automatique des Langues coopéré par l’Université Paris Sorbonne nouvelle, l’Université Paris Nanterre et l’INALCO : [XU Yizhou](https://github.com/cyranohsu) et [JIANG Chunyang](https://github.com/evoginger). 
