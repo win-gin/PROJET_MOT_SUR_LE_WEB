@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tableau URLs</title>
+		<meta charset = 'utf-8'>
+	</head>
+
+	<body>
+		<h2 align="center">Tableaux des URLs de teste</h2>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "7">Tableau-cn_test</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "20%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Encodage</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Dump-text</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center"></td>
+				<td align = "center"><a href = 'http://paper.people.com.cn/rmrb/html/2017-07/07/nw.D110000renmrb_20170707_1-20.htm'>cn_test-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/cn_test-aspiree-1.html>cn_test-aspiree-1</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/cn_test-dump-1>cn_test-dump-1</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center"></td>
+				<td align = "center"><a href = 'http://zqb.cyol.com/html/2017-06/08/nw.D110000zgqnb_20170608_5-05.htm'>cn_test-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/cn_test-aspiree-2.html>cn_test-aspiree-2</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/cn_test-dump-2>cn_test-dump-2</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center"></td>
+				<td align = "center"><a href = 'http://epaper.oeeee.com/epaper/A/html/2016-03/13/content_17166.htm'>cn_test-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/cn_test-aspiree-3.html>cn_test-aspiree-3</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/cn_test-dump-3>cn_test-dump-3</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "7">Tableau-en_test</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "20%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Encodage</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Dump-text</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'https://www.theguardian.com/science/2014/sep/18/machine-learning-artificial-intelligence'>en_test-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/en_test-aspiree-1.html>en_test-aspiree-1</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/en_test-dump-1>en_test-dump-1</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'http://www.telegraph.co.uk/business/2017/09/22/smiths-group-looks-build-digital-forges-pioneer-new-tech/'>en_test-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/en_test-aspiree-2.html>en_test-aspiree-2</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/en_test-dump-2>en_test-dump-2</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'http://www.independent.co.uk/life-style/gadgets-and-tech/deepmind-google-buys-uk-artificial-intelligence-start-up-for-242m-9087109.html'>en_test-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/en_test-aspiree-3.html>en_test-aspiree-3</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/en_test-dump-3>en_test-dump-3</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "7">Tableau-fr_test</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "20%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Encodage</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Dump-text</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'http://www.lemonde.fr/festival/article/2017/09/23/yann-lecun-de-facebook-l-intelligence-artificielle-va-sauver-des-vies-mais-il-y-a-aussi-des-dangers_5190311_4415198.html?xtmc=intelligence_artificielle&xtcr=3'>fr_test-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/fr_test-aspiree-1.html>fr_test-aspiree-1</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/fr_test-dump-1>fr_test-dump-1</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'http://www.lefigaro.fr/secteur/high-tech/2016/09/22/32001-20160922ARTFIG00001-l-intelligence-artificielle-nouvelle-arme-contre-les-commentaires-violents-sur-internet.php'>fr_test-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/fr_test-aspiree-2.html>fr_test-aspiree-2</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/fr_test-dump-2>fr_test-dump-2</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">HTTP/1.1 301 Moved Permanently	
+HTTP/1.1 200 OK	</td>
+				<td align = "center">200</td>
+				<td align = "center">utf-8</td>
+				<td align = "center"><a href = 'http://www.plurital.org'>fr_test-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/fr_test-aspiree-3.html>fr_test-aspiree-3</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/fr_test-dump-3>fr_test-dump-3</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+	</body>
+</html>
