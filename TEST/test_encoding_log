@@ -1,0 +1,74 @@
+###########################################################################
+test encoding... 
+###########################################################################
+INPUT : URLs dans le fichire ./URLs_test
+OUTPUT : pages aspirées dans le rep ./PAGE
+OUTPUT : textes déchargés dans le rep ./TXT
+###########################################################################
+1   http://paper.people.com.cn/rmrb/html/2017-08/19/nw.D110000renmrb_20170819_4-11.htm
+method 1:   : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-1.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8
+  CRLF line terminators : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-1: text/plain; charset=utf-8   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2   http://finance.people.com.cn/n1/2016/1207/c1004-28931370.html
+method 1:   : =>  curl -I header info charset
+method 2: gb2312 : =>  parsing la page html with meta tag 
+method 3 : gb2312  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-2.html: text/html; charset=iso-8859-1 : => encodage de page locale interprétée par cmd file : 
+method 5 : Simplified Chinese National Standard; GB2312 : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-2: text/plain; charset=iso-8859-1   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3   http://zqb.cyol.com/html/2017-05/09/nw.D110000zgqnb_20170509_3-10.htm
+method 1:   : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-3.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8
+  CRLF line terminators : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-3: text/plain; charset=utf-8   =>  par cmd file
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4   http://epaper.oeeee.com/epaper/H/html/2017-08/15/content_60134.htm
+method 1:   : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-4.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8
+  Mixed line terminators : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-4: text/plain; charset=utf-8   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5   http://www.lemonde.fr/festival/article/2017/09/24/c-est-une-sex-doll-qui-fait-non-non-non_5190360_4415198.html?xtmc=intelligence_artificielle&xtcr=2
+method 1: utf-8  : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-5.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8 : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-5: text/plain; charset=utf-8   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6   http://www.lefigaro.fr/secteur/high-tech/2017/05/11/32001-20170511ARTFIG00013-microsoft-prepare-un-assistant-virtuel-pour-contrer-amazon-et-google.php
+method 1: utf-8  : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-6.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8 : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-6: text/plain; charset=utf-8   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7   http://next.liberation.fr/livres/2017/09/20/weyembergh-redessine-un-autre-futur_1597702
+method 1: utf-8  : =>  curl -I header info charset
+method 2: utf-8 : =>  parsing la page html with meta tag 
+method 3 : utf-8  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-7.html: text/html; charset=utf-8 : => encodage de page locale interprétée par cmd file : 
+method 5 : Universal transformation format 8 bits; UTF-8 : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-7: text/plain; charset=utf-8   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8   http://www.univ-paris3.fr/
+method 1: iso-8859-1  : =>  curl -I header info charset
+method 2: iso-8859-1 : =>  parsing la page html with meta tag 
+method 3 : iso-8859-1  : => parsing local page with meta tag
+method 4 : ./PAGE/aspiree-8.html: text/html; charset=iso-8859-1 : => encodage de page locale interprétée par cmd file : 
+method 5 : Unrecognized encoding : =>  encodage_cmd_enca de page locale
+Dump text en : ./TXT/dump-8: text/plain; charset=iso-8859-1   =>  par cmd file  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
