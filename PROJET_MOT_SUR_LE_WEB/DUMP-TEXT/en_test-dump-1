@@ -1,0 +1,491 @@
+   #publisher alternate
+
+   (BUTTON) Close
+
+   Skip to main content
+
+   [ ]
+     * switch to the International edition
+     * switch to the UK edition
+     * switch to the US edition
+     * switch to the Australia edition
+
+   current edition: International edition
+   The Guardian - Back to home
+   become a
+   supporter subscribe find a job jobs
+   sign in (BUTTON) my account
+     * Comment activity
+     * Edit profile
+     * Email preferences
+     * Change password
+     * Sign out
+
+   [ ]
+     * news
+     * opinion
+     * sport
+     * arts
+     * life
+
+   All sections
+     * (BUTTON) news
+          + headlines
+          + world news
+          + UK news
+          + science
+          + cities
+          + global development
+          + tech
+          + business
+          + environment
+          + obituaries
+     * (BUTTON) opinion
+          + opinion home
+          + the guardian view
+          + columnists
+          + cartoons
+          + opinion videos
+          + letters
+     * (BUTTON) sport
+          + sport home
+          + football
+          + rugby union
+          + cricket
+          + tennis
+          + cycling
+          + F1
+          + golf
+          + US sports
+     * (BUTTON) arts
+          + culture home
+          + books
+          + music
+          + tv & radio
+          + art & design
+          + film
+          + games
+          + classical
+          + stage
+     * (BUTTON) life
+          + lifestyle home
+          + fashion
+          + food
+          + recipes
+          + love & sex
+          + health & fitness
+          + home & garden
+          + women
+          + family
+          + travel
+          + money
+
+   ____________________ What term do you want to search? (BUTTON) Search
+   with google
+     * become a supporter
+     * subscribe
+     * Sign in/up
+     * (BUTTON) my account
+          + Comment activity
+          + Edit profile
+          + Email preferences
+          + Change password
+          + Sign out
+
+     * (BUTTON) International edition
+          + switch to the UK edition
+          + switch to the US edition
+          + switch to the Australia edition
+
+     * jobs
+     * dating
+     * holidays
+     * the guardian app
+     * video
+     * podcasts
+     * pictures
+     * newsletters
+     * today's paper
+     * the observer
+     * digital archive
+     * crosswords
+     * Facebook
+     * Twitter
+
+     * jobs
+     * dating
+     * holidays
+
+     * world
+     * UK
+     * science
+     * cities
+     * global development
+     * tech
+     * business
+     * environment
+     * obituaries
+     * (BUTTON) more
+
+   sign in
+     * Comment activity
+     * Edit profile
+     * Email preferences
+     * Change password
+     * Sign out
+
+   become a supporter subscribe
+   search
+   jobs
+   dating
+   more
+
+from the guardian:
+
+     * dating
+     * jobs
+
+change edition:
+
+     * switch to the UK edition switch to the US edition switch to the AU
+       edition
+
+   International edition
+     * switch to the UK edition
+     * switch to the US edition
+     * switch to the Australia edition
+
+   The Guardian - Back to home
+
+     * home
+     * › science
+
+     * home
+     * UK
+     * world
+     * sport
+     * football
+     * opinion
+     * culture
+     * business
+     * lifestyle
+     * fashion
+     * environment
+     * tech
+     * travel
+
+   browse all sections close
+
+   Artificial intelligence (AI)
+   Monthly science explainer
+
+From online dating to driverless cars, machine learning is everywhere
+
+   Dr Michael Osborne from the University of Oxford answers our Q&A about
+   the mysteries of a component of artificial intelligence
+
+   self driving car
+
+   [ ] A Google self-driving car on a test drive. Photograph: Eric
+   Risberg/AP
+
+   Artificial intelligence (AI)
+   Monthly science explainer
+
+From online dating to driverless cars, machine learning is everywhere
+
+   Dr Michael Osborne from the University of Oxford answers our Q&A about
+   the mysteries of a component of artificial intelligence
+
+     * Share on Facebook
+     * Share on Twitter
+     * Share via Email
+     * (BUTTON) View more sharing options
+     * Share on LinkedIn
+     * Share on Pinterest
+     * Share on Google+
+     * Share on WhatsApp
+     * Share on Messenger
+     * (BUTTON) Close
+
+   Nicola Davis
+   @NicolaKSDavis
+
+   Thursday 18 September 2014 07.00 BST Last modified on Tuesday 21
+   February 2017 18.29 GMT
+
+   With machine learning behind myriad technologies, from online dating to
+   driverless cars, we ask expert Dr Michael Osborne from the University
+   of Oxford to give us the lowdown.
+
+   What is machine learning?
+
+   Artificial intelligence is really the goal of trying to develop
+   algorithms that can learn and act. Older AI research ran up against
+   this difficulty that people didn’t really know what intelligence was.
+   Machine learning is a much more modern approach to solving the AI
+   problem where we are coming from the bottom up rather than top down, so
+   we are saying, well, let’s define these really crisp, well-defined,
+   sub-problems, like classifying a handwritten digit as being either a
+   one or two, and then use novel techniques within statistics and
+   optimisation to create an algorithm that can improve its performance
+   over time.
+
+   What is an algorithm?
+
+   An algorithm is a sequence of instructions or rules to complete a task.
+
+   Where do we encounter machine learning?
+
+   Anywhere and everywhere. The spam filter in your email account will be
+   built around a machine learning algorithm. If you use Google translate
+   , machine learning is trying to learn patterns in data to translate
+   text from one language to another. Dating sites will use machine
+   learning algorithms to try and recommend potential mates for you on the
+   basis of your interests. [With] recommendation systems we are seeing
+   the rise of machine learning all over the internet - if you buy
+   products from Amazon it will recommend things to you on the basis of
+   what you buy but also on what those like you buy.
+
+   What are the benefits?
+
+   It is not subject to the same biases or heuristics that humans are -
+   for example, a study of judges found that their decisions about whether
+   or not to award parole to prisoners were influenced by whether or not
+   they had just had lunch. Algorithms can [also] scale up much better
+   than humans can. You can fit many more processors than humans into a
+   room.
+
+   What are the challenges?
+
+   There are technical challenges, obviously, related to designing these
+   crisp problems that are relevant to a large section of industrial and
+   societal needs. [Also] people are concerned that as algorithms get more
+   intelligent they might start to substitute for what humans can do -
+   they might impact on employment. We have this burden to try and make
+   sure that we develop technologies that complement humans rather than
+   replace them.
+
+   What about the future?
+
+   Health informatics will affect a lot of people’s lives. Everyone is
+   carrying around phones that are recording characteristics of their
+   activities - perhaps we can use that information to try and identify
+   when someone’s about to have a heart attack or a seizure. Again this
+   notion of trying to pick out underlying trends or patterns in data and
+   use it to make predictions. The task of figuring out where a robot is
+   in the world is very much a machine learning problem. Something I think
+   a lot of people are justifiably excited about are autonomous vehicles –
+   that is going to be a huge change in our lives.
+
+   Topics
+     * Artificial intelligence (AI)
+     * Monthly science explainer
+
+     * Computing
+     * features
+
+     * Share on Facebook
+     * Share on Twitter
+     * Share via Email
+     * Share on LinkedIn
+     * Share on Pinterest
+     * Share on Google+
+     * Share on WhatsApp
+     * Share on Messenger
+
+     * Reuse this content
+
+View all comments >
+
+   (BUTTON) Order by
+     * (BUTTON) newest
+     * (BUTTON) oldest
+     * (BUTTON) recommendations
+
+   (BUTTON) Show 25
+     * (BUTTON) 25
+     * (BUTTON) 50
+     * (BUTTON) 100
+     * (BUTTON) All
+
+   (BUTTON) Threads
+     * (BUTTON) collapsed
+     * (BUTTON) expanded
+     * (BUTTON) unthreaded
+
+   Loading comments… Trouble loading?
+   (BUTTON) View more comments
+
+most viewed
+
+   The Guardian back to top
+     * home
+     * UK
+     * world
+     * sport
+     * football
+     * opinion
+     * culture
+     * business
+     * lifestyle
+     * fashion
+     * environment
+     * tech
+     * travel
+
+   all sections close
+
+     * home
+     * UK
+          + education
+          + media
+          + society
+          + law
+          + scotland
+          + wales
+          + northern ireland
+     * world
+          + europe
+          + US
+          + americas
+          + asia
+          + australia
+          + africa
+          + middle east
+          + cities
+          + development
+     * sport
+          + football
+          + cricket
+          + rugby union
+          + F1
+          + tennis
+          + golf
+          + cycling
+          + boxing
+          + racing
+          + rugby league
+     * football
+          + live scores
+          + tables
+          + competitions
+          + results
+          + fixtures
+          + clubs
+     * opinion
+          + columnists
+          + letters
+          + editorials
+     * culture
+          + film
+          + tv & radio
+          + music
+          + games
+          + books
+          + art & design
+          + stage
+          + classical
+     * business
+          + economics
+          + banking
+          + retail
+          + markets
+          + eurozone
+     * lifestyle
+          + food
+          + recipes
+          + health & fitness
+          + love & sex
+          + family
+          + women
+          + home & garden
+     * fashion
+     * environment
+          + climate change
+          + wildlife
+          + energy
+          + pollution
+     * tech
+     * travel
+          + UK
+          + europe
+          + US
+     * money
+          + property
+          + savings
+          + pensions
+          + borrowing
+          + careers
+     * science selected
+     * professional networks
+     * the observer
+     * today's paper
+          + obituaries
+          + g2
+          + weekend
+          + the guide
+          + saturday review
+     * sunday's paper
+          + comment
+          + the new review
+          + observer magazine
+     * membership
+     * crosswords
+          + blog
+          + editor
+          + quick
+          + cryptic
+          + prize
+          + quiptic
+          + genius
+          + speedy
+          + everyman
+          + azed
+          + weekend
+     * video
+          + podcasts
+     * digital archive
+
+     * Science
+     * › Artificial intelligence (AI)
+
+     * world
+     * UK
+     * science
+     * cities
+     * global development
+     * tech
+     * business
+     * environment
+     * obituaries
+
+   back to top
+
+   IFRAME: /email/form/footer/37
+
+     * become a supporter
+     * make a contribution
+     * securedrop
+     * ask for help
+
+     * advertise with us
+     * work for us
+     * contact us
+     * complaints & corrections
+
+     * terms & conditions
+     * privacy policy
+     * cookie policy
+     * digital newspaper archive
+
+     * all topics
+     * all contributors
+     * Facebook
+     * Twitter
+
+   © 2017 Guardian News and Media Limited or its affiliated companies.
+   All rights reserved.
+
+   [p?c1=2&c2=6035250&cv=2.0&cj=1&comscorekw=Artificial+intelligence+%28AI
+   %29%2CComputing%2CTechnology]

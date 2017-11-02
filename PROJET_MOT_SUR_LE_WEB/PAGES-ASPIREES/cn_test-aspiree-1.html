@@ -1,0 +1,753 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="utf-8">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="content-language" content="utf-8" />
+<meta name="robots" content="all" />
+<meta name="author" content='第020版' />
+<meta name="copyright" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<META name='filetype' content='1'>
+<meta name='publishedtype' content='1'>
+<meta name='pagetype' content='1'>
+<meta name='catalogs' content='rmrbdzb'>
+<meta name='contentid' content='rmrbdzb_xxxxxxxx'>
+<meta name='publishdate' content='2013-07-17'>
+<link href="../../../tplimg/mulu_4.css" type="text/css" rel="stylesheet" rev="stylesheet" media="all" />
+<title>人工智能会取代人类吗（关注·“三问人工智能”②）</title>
+<SCRIPT language=Javascript src="../../../tplimg/prototype.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/mp.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/calendar2.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/new.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/range.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/jspoints111.js"></SCRIPT>
+<style>
+a.ared:link {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+a.ared:visited {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+a.ared:hover {
+	font-size: 12px;
+	color: #006699;
+	text-decoration: none;
+}
+</style>
+<style>
+.head_c2{display:block;float:left;margin:0 15px 0 0;width:91px;color:#004873;height:21px;padding:0 2px 0 2px;background:#fff;border:1px solid #66B1EB;text-align:left;}
+.head_c3{float:right; margin:2px 0 0 0;}
+</style>
+<script type="text/javascript">
+function nTabs(tabObj,obj){
+	var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+	for(i=0; i <tabList.length; i++)
+	{
+		if (tabList[i].id == obj.id)
+		{
+			document.getElementById(tabObj+"_Title"+i).className = "active";
+    		document.getElementById(tabObj+"_Content"+i).style.display = "block";
+		}else{
+			document.getElementById(tabObj+"_Title"+i).className = "normal";
+			document.getElementById(tabObj+"_Content"+i).style.display = "none";
+		}
+	}
+}
+function CopyAll()
+
+{
+
+         var obj = document.getElementById("articleContent");
+
+         if(obj!=null){
+
+                   var content = obj.innerText;
+
+                   window.clipboardData.setData("Text",content);           
+
+                   alert("复制成功");
+
+         }                 
+
+}
+
+function zoomIn() {
+ newZoom= parseInt(ozoom.style.zoom)+10+'%'
+ ozoom.style.zoom =newZoom;
+ } 
+function zoomOut() {
+ newZoom= parseInt(ozoom.style.zoom)-10+'%'
+ ozoom.style.zoom =newZoom;
+ } 
+function submitCheck()
+ {
+ if(document.all("content1").value.length>1000){
+	 alert("评论内容超过1000字！");
+	 return false;
+	 }
+	 if(document.all("content1").value.indexOf("<script")!=-1 ||document.all("content1").value.indexOf("<\/")!=-1){
+	 alert("评论内容含有特殊字符!");
+	 return false;
+	 }
+	 if(document.all("content1").value == "")
+	 {
+	 alert("必须填写评论内容！");
+	 return false;
+	 }
+	 var isnodecomment = document.commentform.isnodecomm.value; 
+	 document.commentform.nispagename.value = escape(document.getElementById("pageNameForJiaoHu").innerText.replace(/(^\s*)|(\s*$)/g, ""));
+	 document.commentform.paperdate.value = document.getElementById("paperdatediv").innerText.replace(/(^\s*)|(\s*$)/g, ""); 
+	 document.commentform.content.value=escape(document.commentform.content1.value);
+	 document.commentform.author.value=escape(document.commentform.author1.value);
+	 document.commentform.submit();
+	 alert("您的留言已经成功提交！");
+	 document.commentform.content1.value="";
+ }
+
+function viewComment(){ 		
+         document.viewform.nispagename.value = escape(document.getElementById("pageNameForJiaoHu").innerText.replace(/(^\s*)|(\s*$)/g, ""));		 
+         document.viewform.paperdate.value = document.getElementById("paperdatediv").innerText.replace(/(^\s*)|(\s*$)/g, ""); 	
+		
+ 		 document.viewform.submit();		
+ 	}
+ function dohit(){
+  if (document.readyState == 'complete' )
+     {
+  document.frames("hitClickIframe").document.hitform.url.value = location.href;
+  if(document.commentform.isnodecomm.value == '1'){
+  document.frames("hitClickIframe").document.hitform.nodeid.value = document.commentform.nodeid.value;
+  }else{
+  document.frames("hitClickIframe").document.hitform.articleid.value = document.commentform.articleid.value;
+  }
+  document.frames("hitClickIframe").document.hitform.submit();
+  document.hitClickIframe.style.display="none";
+  }else
+  window.setTimeout("dohit()","300");
+}
+	
+	function getDate()
+	{
+		  var url = window.location.pathname.split('/');		  	
+		  var length = url.length;  		  
+		  document.getElementById("newsIframe").src = "http://paperpost.people.com.cn/"+url[1]+"-"+url[length-3]+"-"+url[length-2]+".html";
+	}
+</script>
+<script type="text/javascript">
+ var focus_width=260;
+ var focus_height=180;
+ var text_height=20;
+ var swf_height = focus_height+text_height;
+ var pics ="";
+ var links ="";
+ var texts ="";
+ var resCount=0;
+ function showArtPics()
+ {
+ if(resCount>0)
+ {
+ pics = pics.substring(0, pics.length-1);
+ links = links.substring(0, links.length-1);
+ texts = texts.substring(0, texts.length-1);
+ var content = "";
+ content += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">';
+ content += '<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="../../../tplimg/picflash.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">';
+ content += '<param name="menu" value="false"/><param name="wmode" value="opaque"/>';
+ content += '<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">';
+ content += '<embed src="../../../tplimg/picflash.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
+ content += '<\/object>';
+ document.getElementById("showArtPicsDiv").innerHTML = content;
+ }
+}
+</script>
+</head>
+<SPAN id=leveldiv title=点击查看内容
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 100; LEFT: 233px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 210px; CURSOR: hand; POSITION: absolute; TOP: 123px; HEIGHT: 34px; BORDER-RIGHT-WIDTH: 0px"></SPAN>
+<body onLoad="checkContent();createStarsPage();initialize();initMPPage();getDate();dohit();showArtPics();">
+<div class="div_bg"><div class="div_center">
+  <!--左侧版面图部分-->
+  <div class="left_c">
+    <div class="ban">
+      <div>
+        <map name=PagePicMap><Area coords="2,29,297,29,297,464,2,464" shape="polygon" href="./nw.D110000renmrb_20170707_1-20.htm"><Area coords="310,33,394,33,394,321,310,321" shape="polygon" href="nw.D110000renmrb_20170707_2-20.htm"><Area coords="307,327,397,327,397,447,307,447" shape="polygon" href="nw.D110000renmrb_20170707_3-20.htm"><Area coords="2,477,399,477,399,561,2,561" shape="polygon" href="nw.D110000renmrb_20170707_4-20.htm"></map><img  width=400 height=575 src=../../../page/2017-07/07/20/rmrb2017070720_b.jpg border=0 USEMAP=#PagePicMap>
+      </div>
+    </div>
+    <div class="ban_t">
+      <div>
+        <ul>
+          <li>
+            20版:科技视野
+&nbsp;
+            <a href=../../../page/2017-07/07/20/rmrb2017070720.pdf><IMG src="../../../tplimg/ico4.gif" border=0></a>
+            PDF版下载 
+            <span>
+                 <a class=preart href="nbs.D110000renmrb_19.htm"><img src='../../../tplimg/left_ico.gif' border=0 /> 上一版</a>&nbsp;&nbsp;<a class=preart href="nbs.D110000renmrb_21.htm">下一版 <img src='../../../tplimg/right_ico.gif' border=0 /></a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="tool">
+      <input type="image" onclick="javascript:window.open('http://ardownload.adobe.com/pub/adobe/reader/win/8.x/8.1/chs/AdbeRdr810_zh_CN.exe')" src="../../../tplimg/button.gif" name="" style="float:left;padding-left:40px"/>
+      <img src="../../../tplimg/button1.gif" style="display:none"/>
+      <img src="../../../tplimg/button2.gif" style="display:none"/>
+<a href="node_1921.htm"><img src="../../../tplimg/button3.gif" border="0" style="float:right;padding-right:40px"/></a>
+    </div>
+	<!-- -->
+	
+    <div class="title" style="margin-top:10px">
+      <div>我给文章打分</div>
+    </div>
+    <div class="da_c" style="width:366px;margin-bottom:10px">
+      <FORM id=pointsform name=pointsform action="" method=post 
+                  target=pointsIframe  style=" display:none;">
+                  <INPUT type=hidden
+ name=paperdate />
+        <INPUT 
+                              type=hidden name=nodename1 />
+        <INPUT type=hidden 
+                              name=channelname1 />
+        <INPUT type=hidden name=title1 />
+        <INPUT type=hidden value=2 name=attr />
+        <!--attr 2 数字报刊 1 翔宇-->
+        <INPUT type=hidden value=2 
+                              name=isnodecomm />
+        <!--isnodecomm 2 文章评论 1 版面或栏目评论-->
+        <INPUT 
+                              type=hidden value=2 name=pointtype />
+        <!--pointtype 2 计算平均分（现阶段必须设为2） 1 统计类型-->
+        <!--此列为插件生成的组件-->
+        <input name="nodeid" type=hidden value="1941"><input name="nodename" type=hidden value="20"><input name="nodetype" type=hidden value="0"><input name="nodeurl" type=hidden value="null.htm"><input name="channelid" type=hidden value="1921"><input name="channelname" type=hidden value="人民日报"><input name="articleid" type=hidden value="1789117"><input name="author" type=hidden value="本报记者  吴月辉"><input name="title" type=hidden value="人工智能会取代人类吗（关注·“三问人工智能”②）"><input name="keyword" type=hidden value=""><input name="weburl" type=hidden value="./nw.D110000renmrb_20170707_1-20.htm"><input name="pubtime" type=hidden value="2017-07-07">
+        <div id="paperdatediv">
+          2017-July-07
+        </div>
+      </FORM>
+      <form name="pForm" id="pForm">
+        <input type="radio" name="pointVal" value="1" onClick="pv(1)"/>
+        1分&nbsp;&nbsp;
+        <input type="radio" name="pointVal" value="2" onClick="pv(2)" />
+        2分&nbsp;&nbsp;
+        <input type="radio" name="pointVal" value="3" onClick="pv(3)" checked="checked" />
+        3分&nbsp;&nbsp;
+        <input type="radio" name="pointVal" value="4" onClick="pv(4)" />
+        4分&nbsp;&nbsp;
+        <input type="radio" name="pointVal" value="5" onClick="pv(5)" />
+        5分 &nbsp;        
+		<img src="../../../tplimg/ti.gif"  alt="" border="0" style="cursor:hand " onclick="submitPoints(document.pForm.Input2.value);" />
+        <!--<p>本版得分:<span>4.1分</span>(共有<span>19</span>位网友打分)</p>-->
+        <input name="Input2" type="hidden" value="3" />
+      </form>
+      <iframe id="pointsIframe"  
+            name="pointsIframe" src="about:blank" frameborder=0 width=350
+            scrolling=no height=30 style="margin-left:0px"></iframe>
+    </div>
+    <div class="title">
+      <div>新闻排行榜</div>
+    </div>
+    <div class="pai">
+      <div>
+        <!--
+	    <span>1</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>2</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>3</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>4</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>5</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>6</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>7</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>8</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>9</span><a href="">我看到了你，也看到了我的种点</a><br />
+		<span>10</span><a href="">我看到了你，也看到了我的种点</a><br />-->
+        <iframe name="newsIframe" id="newsIframe" border="0" height="240" width="95%" frameborder="0" src=""></iframe>
+        <br />
+        <iframe name="hitClickIframe" id="hitClickIframe" height="0" width="0" border="0" frameborder="0" src="../../../tplimg/hitPost.htm"></iframe>
+      </div>
+    </div>
+    <div class="title">
+      <div id="bqsm">版权声明</div>
+    </div>
+    <div class="pai f_link" id="bqsm_nr" style="line-height:25px">　　《人民日报》（电子版）的一切内容(包括但不限于文字、图片、PDF、图表、标志、标识、商标、版面设计、专栏目录与名称、内容分类标准以及为读者提供的任何信息)仅供人民网读者阅读、学习研究使用，未经人民网股份有限公司及/或相关权利人书面授权，任何单位及个人不得将《人民日报》（电子版）所登载、发布的内容用于商业性目的，包括但不限于转载、复制、发行、制作光盘、数据库、触摸展示等行为方式，或将之在非本站所属的服务器上作镜像。否则，人民网股份有限公司将采取包括但不限于网上公示、向有关部门举报、诉讼等一切合法手段，追究侵权者的法律责任。</div><!-- -->  
+  </div>
+  <!--右侧目录部分-->
+  <div class="right_c">
+    <div style="margin:0 auto;width:530px;height:70px;text-align:right;padding:8px 0 0 20px;">
+      <div style="height:70px;">
+        <div style="float:left; width:390px;">
+          <div style="height:23px; padding:10px 0px;">
+            <div onMouseOver="document.getElementById('rmrbbx').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx').style.display = 'none';" class="head_c2">
+              <div style="float:left">日&nbsp;报</div>
+              <div  class="head_c3"><img src="../../../tplimg/ico10.gif" border="0" alt="" /></div>
+            </div>
+            <div onMouseOver="document.getElementById('rmrbbx1').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx1').style.display = 'none';" class="head_c2">
+              <div style="float:left">周&nbsp;报</div>
+              <div  class="head_c3"><img src="../../../tplimg/ico10.gif" border="0" alt="" /></div>
+            </div>
+            <div onMouseOver="document.getElementById('rmrbbx2').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx2').style.display = 'none';" class="head_c2">
+              <div style="float:left">杂&nbsp;志</div>
+              <div  class="head_c3"><img src="../../../tplimg/ico10.gif" border="0" alt="" /></div>
+            </div>
+          </div>
+          <div style="text-align:left;">
+            <div style="float:left; width:370px;"><div id="riqi_"  style="float:left;">
+            人民日报
+            2017年07月07日 星期五
+            </div><div id="peopledata" style="float:right; display:none" class="peopledata"></div>
+		  <div style="float:left; color:#004773; display:none; padding-left:5px;" id="infowelcome">&nbsp;欢迎您：<span id="disname" class="un">用户ID名称</span></div></div>
+         </div>
+        </div>
+        <div style="float:left;"><a href="http://www.people.com.cn"><img src="../../../tplimg/logo.jpg" border="0" alt="人民网" /></a></div>
+      </div>
+    </div>
+    <div style="margin:0 auto; color:#004773; height:20px; width:500px; padding:8px 10px 10px 20px; text-align: left;float:left;">
+      <div style="float:left; width:50px;">往期回顾</div>
+      <div style="float:left; width:60px; padding-top:2px;"><a onClick="autoShowDate();" style="cursor:hand;" title="鼠标点击，显示日历牌"><img src="../../../tplimg/ico1.gif" border="0" alt="" /></a></div>
+      <div style="float:left; width:80px;display:none" id="paperSearch"><a href="http://search.people.com.cn/rmw/GB/bkzzsearch/index.jsp" target="_blank">人民网检索</a></div>
+      <div style="float:left; display:none; font-weight:bold;" id="usercenter"><a href="../../../notice/notice.htm" class="ared" target="_blank">《人民日报》数字报取消收费的通知</a></div>
+      <div style="float:right; text-align:right;"><a href=nbs.D110000renmrb_20.htm>返回目录</a></div>
+    </div>
+    <div class="mobilepaper" id="mobilepaper"></div>
+  <!--目录与标题-->
+    <div style="margin:15px auto 0 auto; width:550px;">
+      <div class="text_c"><br/>
+        
+<h3>“阿尔法狗”横扫棋坛，写稿机器人一分钟“出活”</h3>
+<h1>人工智能会取代人类吗（关注·“三问人工智能”②）</h1>
+<h2></h2>
+
+<h4>本报记者  吴月辉</h4>
+        <div class="lai"  style="padding-top:5px;"> 《
+          人民日报
+          》（
+          2017年07月07日
+&nbsp;
+          20
+          版）</div>
+        <div class="c_c">
+        	<div align="center" style="padding:10px 0 15px 0">
+            </div>
+ 
+                                <TABLE class="pci_c" width="400"><TBODY><TR><TD align="center"><IMG src="../../../res/1/20170707/1499375992030_1.jpg"></TD></TR> <TR><TD><p>　　会这样吗？<BR/>　　蔡华伟绘</p></TD></TR></TBODY></TABLE>
+          <DIV id=ozoom style="zoom:100%;">
+            <div id="showArtPicsDiv" align="center"></div>
+            <script language=javascript>
+							/*	if(picResCount>0){
+									document.getElementById("picres").style.display="block";
+									document.write("<br />");
+								}*/
+ 			  				</script>
+ 			
+            <!--enpcontent--><P>　　不久前，在中国乌镇围棋峰会上，人工智能程序“阿尔法狗”与排名世界第一的中国围棋职业九段棋手柯洁对战，以3∶0的总比分大获全胜。在此之前，它曾经以4∶1的总比分击败过同为围棋世界冠军的韩国职业九段棋手李世石，并在中国棋类网站上以“大师”为注册账号与中日韩数十位围棋高手进行快棋对决，连续60局无一败绩。两年来，“阿尔法狗”横扫中日韩围棋棋坛，并且每次表现都堪称完美。</P><P>　　一直以来，就有人工智能的发展会威胁到人类生存的观点，而“阿尔法狗”能在典型的反映人类智慧的围棋比赛中屡屡打败人类，更是加重了一些人的担忧。</P><P>　　那么，人工智能对人们工作、生活的直接影响到底有多大？它具备了人的部分能力，甚至比人类做得更好，未来会不会和人类抢“饭碗”，甚至对我们产生威胁？</P><P>　　</P><P>　　具有不可</P><P>　　比拟的优势</P><P>　　未来人工智能可在金融投资、医疗诊断、企业经营、军事指挥等方面进行高水平的预测和决策</P><P>　　人工智能会取代人类吗？应当说，这种担忧也有一定道理。</P><P>　　近年来，人工智能各方面的发展都在逐渐完善，应用也越来越多，并且在很多方面的表现都超越了人类。</P><P>　　比如，2015年9月，腾讯财经推出了自动化新闻写作机器人。它能根据算法在第一时间自动生成稿件，瞬时输出分析和研判，一分钟内就能将重要资讯和解读送达用户。</P><P>　　还有，备受关注的微软小冰，作为一个虚拟伴侣型机器人，它能够模拟人的语气与人对话，聊天时让人感觉这就是一个活生生的人而并非机器。</P><P>　　此外，据外媒报道，摩根大通已经开发出一款金融合同解析软件，原来律师和信贷人员每年需要36万小时才能完成的工作，该软件只需几秒就能完成，且错误率大大降低。</P><P>　　青岛智能产业研究院智慧教育研究所副所长刘希未说：“在问题求解方面，人工智能程序已经能知道如何考虑它们要解决的问题，即搜索解答空间，寻找较优解答。在无人驾驶方面，人工智能已经可以实现长距离复杂路况下的自主驾驶。”</P><P>　　“未来在认知层次，人工智能还将会有广阔应用空间，例如人工智能可在金融投资、医疗诊断、企业经营、军事指挥等方面进行高水平的预测和决策。”中国科学院自动化研究所研究员孙哲南说。</P><P>　　而著名物理学家史蒂芬·霍金则认为人工智能给人类社会带来的冲击将更为巨大。2016年底，他在英国《卫报》发表文章预言说：“工厂的自动化已经让众多传统制造业工人失业，人工智能的兴起很有可能会让失业潮波及中产阶级，最后只给人类留下护理、创造和监管等工作。”</P><P>　　这样的判断还有待未来验证，不过，相比人类智慧，人工智能的确有着不可比拟的优势。</P><P>　　刘希未说：“和人脑相比，人工智能算法应对数值和符号计算更加精确快速，稳定可靠。特别是对于有确定规则的计算问题，人工智能可以远远超出人脑的计算速度，也更容易找到最优的解答。比如，在数值计算，图形、语音、生物特征、行为姿态等方面的识别，甚至更加复杂的预测推理任务方面，人工智能都有超越人脑的优秀表现。”</P><P>　　不会取代</P><P>　　甚至威胁人类</P><P>　　人工智能不具备感性思维，无法跨越到意识领域</P><P>　　那么，人工智能真的会因此而取代人类本身，甚至对我们产生威胁吗？记者采访的几位专家都给出了否定的答案。</P><P>　　首先，专家们认为，当前的计算机架构和编程模式具有本质上的劣势，使得人工智能无法实现与人脑情感、意志、心态、情绪、经验等方面的自然交互。本质上，人工智能仅仅是物质世界范畴的概念，无法跨越到意识领域。</P><P>　　1981年荣获诺贝尔生理学奖的罗杰·斯佩里博士曾发布著名的“左右脑分工理论”，认为人脑的左右半球有着不同分工：左半脑擅长分析、逻辑、演绎、推理等理性抽象思维；右半脑擅长直觉、情感、艺术、灵感等感性形象思维。迄今为止，人工智能的所有智能化表现仅仅在模仿人类左半脑的理性思维模式，而完全不具备右半脑的感性思维。</P><P>　　“也就是说，目前的人工智能技术还很难应对具有显著人类主观意识影响的社会文化和意识领域的各类问题，而人脑却可以通过长期在复杂社会环境下的学习成长轻松应对这类问题。”刘希未说。</P><P>　　他进一步举例说，比如人工智能至今也还没有创作出真正具有人性境界的作品。“电脑与人脑，毕竟有着机械性与生命灵性的本质区别，因此，电脑创作与人脑创作之间尚存在着难以逾越的鸿沟。个性化是人类文学艺术创作的生命，而已有电脑创作系统尚无个性可言，只不过是对已有的艺术作品的模仿、复制与重组。”</P><P>　　那么，随着人工智能的不断发展完善，将来是否有可能实现这种自发的情感智能呢？</P><P>　　“情感智能化分成两个层面，一个是让机器本身具有情感，另外一个是让机器理解人的情感，两者是不一样的”，中国科学院自动化研究所研究员易建强说，“让机器去理解人的情感，这件事是有可能做到的。目前有一部分机器人系统能够做到部分理解场景、环境及对话内容，并根据其结果做出相应的反应或者表情。但要机器人或人工智能系统完全达到人类的水平，有自发的情感和创造性，那是很难实现的，或者说不可能实现。”</P><P>　　中国自动化协会副理事长、秘书长王飞跃对此表示认同，“我个人认为100年内无法实现，或许永远不可能实现，除非重新定义什么是人的情感、理解、推理等等。原因很简单，人们现在都还不清楚这些情感的内涵、产生的过程及其方式。”</P><P>　　将成为人类</P><P>　　发展的加速器</P><P>　　人工智能的确会对人类就业造成一定冲击，但人类的工作不会消失，而是转变为新的形式</P><P>　　科学家们还认为，人工智能技术只是人类智慧创造的一种新型工具，它有助于人类更快做出突破，提高我们应对那些亟待解决的全球性难题的能力。</P><P>　　“我们需要人工智能这个强大的工具来帮助处理复杂问题，预测未知，支持我们实现以往不可能的目标。”王飞跃说。</P><P>　　专家们表示，很多划时代的科技成果必然引发人们生活方式的改变，短期内很可能难以被接受，但若放眼历史长河，就会发现，所有重大的科技革命无一例外地都最终成为人类发展的加速器，同时也是人类生活品质提高的根本保障。</P><P>　　“人工智能技术的出现也同样如此，它的确会对人类的就业造成一定冲击。比如，人工智能更适合处理简单重复、规则确定或者通过案例学习可以找到有效处理规则的问题。像安检、看病理切片和监控视频审核等交给人工智能更为高效可靠，这些工种也因此比较容易受到冲击和替代。”不过，易建强表示，不必因此就担心它会彻底取代人类。“以第一次工业革命为例，它不仅仅是让人类的既有工作被取代，同时会制造出足够多的新的就业机会。大多数情况下，工作不是消失了，而是转变为新的形式。”</P><P>　　易建强说，马车被汽车取代就是一个非常典型的例子。当年，汽车开始进入大城市并逐渐普及的过程中，曾经在数百年的时间里充当出行工具的马车，面临着“下岗”威胁。但后来的事实证明，新兴起的汽车行业拥有比传统马车行业多出数千倍甚至数万倍的产值和工作机会。</P><P>　　“现阶段，在一个真正实现人工智能的工作场景中，传统劳动者也并未被‘下岗’，只是改变了角色而已。仍然需要人类对人工智能的表现进行监控，进行情报采集与分析，以及开展预测性的实验与评估，引导性的过程管理与控制。”王飞跃说，“我相信将来人类90%以上的工作是由人工智能提供的，就像今天我们大多数的工作是由计算机和各种其它机器提供的一样。”</P><!--/enpcontent-->
+<INPUT type=checkbox value=0 name=titlecheckbox sourceid="<Source>SourcePh</Source>" style="display:none">
+		               
+		                    
+               
+          </DIV>
+        </div>
+      </div>
+    </div>
+    <div style="padding:5px 15px;" id="xgyd">
+    </div>
+    <!--工具条-->
+    <div class="tool_t">
+      <a href=nbs.D110000renmrb_20.htm>返回目录</a>
+&nbsp;&nbsp;&nbsp;<a href="#" onclick="zoomIn();">放大</a><a href="#" onclick="zoomOut();"><img src="../../../tplimg/ico6.gif" border="0" alt="" />缩小</a><a href="#" onclick="CopyAll();"><img src="../../../tplimg/ico7.gif" border="0" alt="" />全文复制</a>&nbsp;&nbsp;&nbsp;
+      <a class=preart href="nw.D110000renmrb_20170707_2-20.htm">下一篇 <img src='../../../tplimg/ico9.gif' border=0 /></a>
+    </div>
+    <!-- 以下是供复制全文用 -->
+    <div style="display:none" id="articleContent">
+      
+			<!--enpcontent--><P>　　不久前，在中国乌镇围棋峰会上，人工智能程序“阿尔法狗”与排名世界第一的中国围棋职业九段棋手柯洁对战，以3∶0的总比分大获全胜。在此之前，它曾经以4∶1的总比分击败过同为围棋世界冠军的韩国职业九段棋手李世石，并在中国棋类网站上以“大师”为注册账号与中日韩数十位围棋高手进行快棋对决，连续60局无一败绩。两年来，“阿尔法狗”横扫中日韩围棋棋坛，并且每次表现都堪称完美。</P><P>　　一直以来，就有人工智能的发展会威胁到人类生存的观点，而“阿尔法狗”能在典型的反映人类智慧的围棋比赛中屡屡打败人类，更是加重了一些人的担忧。</P><P>　　那么，人工智能对人们工作、生活的直接影响到底有多大？它具备了人的部分能力，甚至比人类做得更好，未来会不会和人类抢“饭碗”，甚至对我们产生威胁？</P><P>　　</P><P>　　具有不可</P><P>　　比拟的优势</P><P>　　未来人工智能可在金融投资、医疗诊断、企业经营、军事指挥等方面进行高水平的预测和决策</P><P>　　人工智能会取代人类吗？应当说，这种担忧也有一定道理。</P><P>　　近年来，人工智能各方面的发展都在逐渐完善，应用也越来越多，并且在很多方面的表现都超越了人类。</P><P>　　比如，2015年9月，腾讯财经推出了自动化新闻写作机器人。它能根据算法在第一时间自动生成稿件，瞬时输出分析和研判，一分钟内就能将重要资讯和解读送达用户。</P><P>　　还有，备受关注的微软小冰，作为一个虚拟伴侣型机器人，它能够模拟人的语气与人对话，聊天时让人感觉这就是一个活生生的人而并非机器。</P><P>　　此外，据外媒报道，摩根大通已经开发出一款金融合同解析软件，原来律师和信贷人员每年需要36万小时才能完成的工作，该软件只需几秒就能完成，且错误率大大降低。</P><P>　　青岛智能产业研究院智慧教育研究所副所长刘希未说：“在问题求解方面，人工智能程序已经能知道如何考虑它们要解决的问题，即搜索解答空间，寻找较优解答。在无人驾驶方面，人工智能已经可以实现长距离复杂路况下的自主驾驶。”</P><P>　　“未来在认知层次，人工智能还将会有广阔应用空间，例如人工智能可在金融投资、医疗诊断、企业经营、军事指挥等方面进行高水平的预测和决策。”中国科学院自动化研究所研究员孙哲南说。</P><P>　　而著名物理学家史蒂芬·霍金则认为人工智能给人类社会带来的冲击将更为巨大。2016年底，他在英国《卫报》发表文章预言说：“工厂的自动化已经让众多传统制造业工人失业，人工智能的兴起很有可能会让失业潮波及中产阶级，最后只给人类留下护理、创造和监管等工作。”</P><P>　　这样的判断还有待未来验证，不过，相比人类智慧，人工智能的确有着不可比拟的优势。</P><P>　　刘希未说：“和人脑相比，人工智能算法应对数值和符号计算更加精确快速，稳定可靠。特别是对于有确定规则的计算问题，人工智能可以远远超出人脑的计算速度，也更容易找到最优的解答。比如，在数值计算，图形、语音、生物特征、行为姿态等方面的识别，甚至更加复杂的预测推理任务方面，人工智能都有超越人脑的优秀表现。”</P><P>　　不会取代</P><P>　　甚至威胁人类</P><P>　　人工智能不具备感性思维，无法跨越到意识领域</P><P>　　那么，人工智能真的会因此而取代人类本身，甚至对我们产生威胁吗？记者采访的几位专家都给出了否定的答案。</P><P>　　首先，专家们认为，当前的计算机架构和编程模式具有本质上的劣势，使得人工智能无法实现与人脑情感、意志、心态、情绪、经验等方面的自然交互。本质上，人工智能仅仅是物质世界范畴的概念，无法跨越到意识领域。</P><P>　　1981年荣获诺贝尔生理学奖的罗杰·斯佩里博士曾发布著名的“左右脑分工理论”，认为人脑的左右半球有着不同分工：左半脑擅长分析、逻辑、演绎、推理等理性抽象思维；右半脑擅长直觉、情感、艺术、灵感等感性形象思维。迄今为止，人工智能的所有智能化表现仅仅在模仿人类左半脑的理性思维模式，而完全不具备右半脑的感性思维。</P><P>　　“也就是说，目前的人工智能技术还很难应对具有显著人类主观意识影响的社会文化和意识领域的各类问题，而人脑却可以通过长期在复杂社会环境下的学习成长轻松应对这类问题。”刘希未说。</P><P>　　他进一步举例说，比如人工智能至今也还没有创作出真正具有人性境界的作品。“电脑与人脑，毕竟有着机械性与生命灵性的本质区别，因此，电脑创作与人脑创作之间尚存在着难以逾越的鸿沟。个性化是人类文学艺术创作的生命，而已有电脑创作系统尚无个性可言，只不过是对已有的艺术作品的模仿、复制与重组。”</P><P>　　那么，随着人工智能的不断发展完善，将来是否有可能实现这种自发的情感智能呢？</P><P>　　“情感智能化分成两个层面，一个是让机器本身具有情感，另外一个是让机器理解人的情感，两者是不一样的”，中国科学院自动化研究所研究员易建强说，“让机器去理解人的情感，这件事是有可能做到的。目前有一部分机器人系统能够做到部分理解场景、环境及对话内容，并根据其结果做出相应的反应或者表情。但要机器人或人工智能系统完全达到人类的水平，有自发的情感和创造性，那是很难实现的，或者说不可能实现。”</P><P>　　中国自动化协会副理事长、秘书长王飞跃对此表示认同，“我个人认为100年内无法实现，或许永远不可能实现，除非重新定义什么是人的情感、理解、推理等等。原因很简单，人们现在都还不清楚这些情感的内涵、产生的过程及其方式。”</P><P>　　将成为人类</P><P>　　发展的加速器</P><P>　　人工智能的确会对人类就业造成一定冲击，但人类的工作不会消失，而是转变为新的形式</P><P>　　科学家们还认为，人工智能技术只是人类智慧创造的一种新型工具，它有助于人类更快做出突破，提高我们应对那些亟待解决的全球性难题的能力。</P><P>　　“我们需要人工智能这个强大的工具来帮助处理复杂问题，预测未知，支持我们实现以往不可能的目标。”王飞跃说。</P><P>　　专家们表示，很多划时代的科技成果必然引发人们生活方式的改变，短期内很可能难以被接受，但若放眼历史长河，就会发现，所有重大的科技革命无一例外地都最终成为人类发展的加速器，同时也是人类生活品质提高的根本保障。</P><P>　　“人工智能技术的出现也同样如此，它的确会对人类的就业造成一定冲击。比如，人工智能更适合处理简单重复、规则确定或者通过案例学习可以找到有效处理规则的问题。像安检、看病理切片和监控视频审核等交给人工智能更为高效可靠，这些工种也因此比较容易受到冲击和替代。”不过，易建强表示，不必因此就担心它会彻底取代人类。“以第一次工业革命为例，它不仅仅是让人类的既有工作被取代，同时会制造出足够多的新的就业机会。大多数情况下，工作不是消失了，而是转变为新的形式。”</P><P>　　易建强说，马车被汽车取代就是一个非常典型的例子。当年，汽车开始进入大城市并逐渐普及的过程中，曾经在数百年的时间里充当出行工具的马车，面临着“下岗”威胁。但后来的事实证明，新兴起的汽车行业拥有比传统马车行业多出数千倍甚至数万倍的产值和工作机会。</P><P>　　“现阶段，在一个真正实现人工智能的工作场景中，传统劳动者也并未被‘下岗’，只是改变了角色而已。仍然需要人类对人工智能的表现进行监控，进行情报采集与分析，以及开展预测性的实验与评估，引导性的过程管理与控制。”王飞跃说，“我相信将来人类90%以上的工作是由人工智能提供的，就像今天我们大多数的工作是由计算机和各种其它机器提供的一样。”</P><!--/enpcontent-->
+			
+    </div>
+    <!--结束工具条-->
+    	<iframe id=postIframe"  
+            name="postIframe" src="http://paperpost.people.com.cn/dis/commesDetail.jsp" frameborder=0 width=555
+            scrolling=no height=437 style="margin-left:0px"></iframe>
+    <!--我要评报-->
+    <div class="title da_t">
+      <div><div style="float:left;width:350px;background:none;margin:0px;padding:0px;height:25px">我要评报 <a href="http://www.people.com.cn/GB/50142/104580/index.html" target="_blank">&nbsp;|&nbsp;关于人民日报社</a></div><div style="width:80px;float:right;margin-right:20p;background:none;padding:0px"><a href="#liuyan" onClick="getElementById
+('liuyans').style.display=
+(getElementById('liuyans').style.display=='none'?'block'
+:'none');">隐藏留言须知</a></div></div>
+    </div>
+    <div class="note">
+		<div name="pageNameForJiaoHu" id="pageNameForJiaoHu" style="display:none" >
+       	 科技视野
+    	</div>
+      <form name=commentform action=http://paperpost.people.com.cn/comment/saveArtComment.jsp method=post target="tempForm">
+&nbsp;&nbsp;&nbsp;&nbsp;署名:
+        <input type="text" style="width:95px;height:18px;border:1px solid #7F9DB9;"  maxLength=64  name="author1"/>
+&nbsp;&nbsp;
+        <input name="isGuest" type="hidden"  id="isGuest" value="ture" />
+        <!--匿名发表-->
+        <p>
+          <textarea name="content1" cols="50" rows="6"  id="content1"></textarea>
+          <img src="../../../tplimg/fb.gif"  alt="" border="0" style="cursor:hand " onclick="return submitCheck();" />
+		  <br/><br/><br/><!--img src="../../../tplimg/ckpl.gif"  alt="" border="0" style="cursor:hand " onclick="return viewComment();" /-->
+        </p>
+        <input type="hidden"  name="nodename1" />
+        <input type="hidden"  name="channelname1" />
+        <input  name="title1" type="hidden" value="" />
+        <input name="attr" type="hidden" value="2" />
+        <input name="isnodecomm" type="hidden" value="2" />
+        <input type="hidden" name="author" />
+        <input type="hidden" name="content" />
+		<INPUT type="hidden" name="paperdate">
+		<input type="hidden" name="nispagename" /><br />
+                <span id="liuyans">
+          1.遵守中华人民共和国有关法律、法规，尊重网上道德，承担一切因您的行为而直接或间接引起的法律责任。 
+            <br>
+            2.人民网拥有管理笔名和留言的一切权力。 <br>
+            3.您在人民网留言板发表的言论，人民网有权在网站内转载或引用。 <br>
+          </span>
+        <input name="nodeid" type=hidden value="1941"><input name="nodename" type=hidden value="20"><input name="nodetype" type=hidden value="0"><input name="nodeurl" type=hidden value="null.htm"><input name="channelid" type=hidden value="1921"><input name="articleid" type=hidden value="1789117"><input name="author" type=hidden value="本报记者  吴月辉"><input name="title" type=hidden value="人工智能会取代人类吗（关注·“三问人工智能”②）"><input name="keyword" type=hidden value=""><input name="weburl" type=hidden value="./nw.D110000renmrb_20170707_1-20.htm"><input name="pubtime" type=hidden value="2017-07-07">
+        <INPUT name="password" type="password" id="password" style="WIDTH: 95px; HEIGHT: 18px;display:none" maxLength=64 />
+        <input type="radio" name="rankRadio" style=" display:none;" value="5" />
+        <input type="radio" name="rankRadio" style=" display:none;" value="4" />
+        <input type="radio" name="rankRadio" style=" display:none;" value="3" />
+        <input type="radio" name="rankRadio" style=" display:none;" value="2" />
+        <input type="radio" checked name="rankRadio" style=" display:none;" value="1" />
+      </form>
+      <form name=viewform action=http://paperpost.people.com.cn/comment/comment.jsp method=post> 
+        <input name="attr" type="hidden" value="2" />
+        <input name="isnodecomm" type="hidden" value="2" />
+        <INPUT type="hidden" value="1" name="view" />
+		<INPUT type="hidden" name="paperdate" id="paperdate" />
+		<input name="nispagename" type="hidden" id="nispagename" />
+        <input name="nodeid" type=hidden value="1941"><input name="nodename" type=hidden value="20"><input name="nodetype" type=hidden value="0"><input name="nodeurl" type=hidden value="null.htm"><input name="channelid" type=hidden value="1921"><input name="articleid" type=hidden value="1789117"><input name="author" type=hidden value="本报记者  吴月辉"><input name="title" type=hidden value="人工智能会取代人类吗（关注·“三问人工智能”②）"><input name="keyword" type=hidden value=""><input name="weburl" type=hidden value="./nw.D110000renmrb_20170707_1-20.htm"><input name="pubtime" type=hidden value="2017-07-07">
+      </form>
+    </div>
+    <!--我要评报-->
+  </div>
+<!--结束内容部分-->
+<!--版权部分-->
+<div class="copyright"><p class="p1"><span class="red">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用</span><br /><span class="black">Copyright &copy; 1997-2013 by www.people.com.cn.  all rights reserved</span><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=0102000101300040" target="_blank"><img src="../../../tplimg/gongshang.gif" width="40" style="float:right;margin:-45px 0px 0 10px;" height="48" alt="" align="middle" border="0" /></a></p></div>
+    <!--日报-->
+    <DIV  id="rmrbbx" style="display:none;position:absolute;top:50px;left:50%;margin-left:-40px;" onMouseOver="document.getElementById('rmrbbx').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx').style.display = 'none';">
+      <table width="100" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="100" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="100" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="99" bgcolor="#ffffff" align="center" valign="top"><table width="85" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0;">
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../paperindex.htm" target="_blank">人民日报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmrbhwb/paperindex.htm" target="_blank">人民日报海外版</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="http://www.huanqiu.com/" target="_blank">环球时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="http://epaper.stcn.com/" target="_blank">证券时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束日报-->
+    <!--周报-->
+    <DIV  id="rmrbbx1" style="display:none;position:absolute;top:50px;left:50%;margin-left:75px;" onMouseOver="document.getElementById('rmrbbx1').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx1').style.display = 'none';">
+      <table width="100" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="100" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="100" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="99" bgcolor="#ffffff" align="center" valign="top"><table width="85" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0;">
+                      	  <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../gjjrb/paperindex.htm" target="_blank">国际金融报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+							<td height="20" align="left" class="fontstyle"><a href="../../../../zgnyb/paperindex.htm" target="_blank">中国能源报</a></td>
+						  </tr>						  
+                          <tr>
+							<td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../smsb/paperindex.htm" target="_blank">生命时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../jksb/paperindex.htm" target="_blank">健康时报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../fcyym/paperindex.htm" target="_blank">讽刺与幽默</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../zgcsb/paperindex.htm" target="_blank">中国城市报</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                      </table></td>
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束周报-->
+    <DIV  id="rmrbbx2" style="display:none;position:absolute;top:50px;left:50%;margin-left:190px;" onMouseOver="document.getElementById('rmrbbx2').style.display = 'block';" onMouseOut="document.getElementById('rmrbbx2').style.display = 'none';">
+<table width="110" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+        <tr>
+          <td bgcolor="#D8EFFF" style="padding: 3px;"><table width="110" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td bgcolor="#FFFFFF" style="padding: 1px;" valign="top">
+                  <table width="115" border="0" cellpadding="0" cellspacing="0" height="23">
+                    <tr>
+                      <td width="115" bgcolor="#ffffff" align="center" valign="top"><table width="115" border="0" cellpadding="0" cellspacing="0"  style="margin: 5px 0 0 3px;">
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../xwzx/paperindex.htm" target="_blank">新闻战线</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../dd/paperindex.htm" target="_blank">大地</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../hqrw/paperindex.htm" target="_blank">环球人物</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmlt/paperindex.htm" target="_blank">人民论坛</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../rmwz/paperindex.htm" target="_blank">人民文摘</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../zgjjzk/paperindex.htm" target="_blank">中国经济周刊</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                            <td height="20" align="left" class="fontstyle"><a href="../../../../xaq/paperindex.htm" target="_blank">新安全</a></td>
+                          </tr>
+                          <tr>
+                            <td height="1"></td>
+                          </tr>
+                          <tr>
+                   			<td height="20" align="left" class="fontstyle"><a href="../../../../mszk/paperindex.htm" target="_blank">民生周刊</a></td>
+                		  </tr>
+                		  <tr>
+                   			<td height="1"></td>
+                		  </tr>
+                          <tr>
+                   			<td height="20" align="left" class="fontstyle"><a href="http://history.people.com.cn/GB/198819/index.html" target="_blank">国家人文历史</a></td>
+                			</tr>
+                		<tr>
+                   			<td height="1"></td>
+                		</tr>
+                		<tr>
+                   <td height="20" align="left" class="fontstyle"><a href="../../../../zgby/paperindex.htm" target="_blank">中国报业</a></td>
+                		</tr>
+                		<tr>
+                   			<td height="1"></td>
+                </tr>
+                      </table></td>
+
+                    </tr>
+                </table></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <!--结束杂志-->
+<script language=JavaScript>
+<!--
+document.write("<div id=detail style=position:absolute;width:300px;></div>");
+//-->
+</script>
+    <!-------rqdh版面导航------>
+    <div id=daydh style="display:none; position:absolute; left:50%;margin-left:-100px; top:110px; filter:alpha(opacity=90);"  onmouseover="document.getElementById('daydh').style.display='block';" >
+      <form name=CLD style="padding:0px;margin:0px;">
+        <table width="210" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#007CD2">
+          <tr>
+            <td bgcolor="#D8EFFF" style="padding: 3px;"><table cellspacing=0 cellpadding=0 width="100%" align=center border=0 bgcolor="#D8EFFF">
+              <tr>
+                <td><table width="100%" align=center border="0" cellpadding="1" cellspacing="1">
+                  <tr class="default" align=center>
+                    <td height=15 colspan=7 bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="2" cellspacing="0">
+                      <tr align="center">
+                        <td align="left" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12../../../tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,0)" /></td>
+                        <td><select class=jumpmenu onChange=changeMPCld() name=SY>
+                          <script language=JavaScript>
+					for(i=2006;i<2051;i++)
+					document.write('<option>'+i+'</option>')
+        			</script>
+                        </select>
+                        </td>
+                        <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12../../../tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,1)" /></td>
+                        <td align="center" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12../../../tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,0)" /></td>
+                        <td><select class=jumpmenu onChange=changeMPCld() name=SM>
+                          <script language=JavaScript>
+				<!--
+					for(i=1;i<13;i++) document.write('<option>'+i+'</option>')
+				//-->
+        			</script>
+                        </select>
+                        </td>
+                        <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12../../../tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,1)" /></td>
+                        <td align="right" nowrap><strong><font id=GZ fface="Arial, Helvetica, sans-serif"></font></strong></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr align=middle bgcolor="#FFFFFF" class="default">
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">日</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">一</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">二</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">三</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">四</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">五</font></b></td>
+                    <td bgcolor="#027CD1" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">六</font></b> </td>
+                  </tr>
+                  <script language=JavaScript>
+		<!--
+			var gNum;
+			for(i=0;i<6;i++)
+			{
+				document.write('<tr align=center>');
+				for(j=0;j<7;j++)
+				{
+					gNum = i*7+j;
+					document.write('<td  bgcolor="#FFFFFF" class="default" align=center id="GD' + gNum +'" style="cursor: default;" width="14%"><a href="" id="CD' + gNum + '"><span class="date" style="font-family:Verdana, Arial;font-size:11px;"><font _onMouseOver="mOvr(' + gNum +')" onMouseOut="mOut()" id="SD' + gNum +'"');
+					document.write('></font></span></a><br><font id="LD' + gNum + '" size=2 class=pt9 style=display:none></font></td>');
+				}
+				document.write('</tr>');
+			}
+		//-->
+        	</script>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr><td align="center" height="22"><a href="#" onClick="autoShowDate();">关闭</a></td></tr>
+        </table>
+      </form>
+    </div>
+    <!-------rqdh版面导航END------>
+<!-------文章显示标题开始------>
+<div style="display:none">
+  <table width="265" border="0" cellspacing="0" cellpadding="0" style="margin-top:3px;">
+
+  <tr>
+	<td width="16" align="left"><img src="../../../tplimg/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22">
+<a href=./nw.D110000renmrb_20170707_1-20.htm><div style="display:inline" id=mp_nw.D110000renmrb_20170707_1-20>人工智能会取代人类吗（关注·“三问人工智能”②）</div></a>
+	</td>
+  </tr>
+  <tr><td background="../../../tplimg/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"  bgcolor="#D8EFFF"><img src="../../../tplimg/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22"  bgcolor="#D8EFFF">
+<a href=nw.D110000renmrb_20170707_2-20.htm><div style="display:inline" id=mp_nw.D110000renmrb_20170707_2-20>1000＜1？（科技杂谈）</div></a>
+	</td>
+  </tr>
+  <tr><td background="../../../tplimg/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"><img src="../../../tplimg/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22">
+<a href=nw.D110000renmrb_20170707_3-20.htm><div style="display:inline" id=mp_nw.D110000renmrb_20170707_3-20>科技短波</div></a>
+	</td>
+  </tr>
+  <tr><td background="../../../tplimg/dian01.jpg" colspan="2" height="1"></td></tr>
+  <tr>
+	<td width="16" align="left"  bgcolor="#D8EFFF"><img src="../../../tplimg/icon07.jpg" /></td>
+	<td width="271" align="left" class="fontstyle" height="22"  bgcolor="#D8EFFF">
+<a href=nw.D110000renmrb_20170707_4-20.htm><div style="display:inline" id=mp_nw.D110000renmrb_20170707_4-20>当无人机有了“集群智能”（创新故事）</div></a>
+	</td>
+  </tr>
+  <tr><td background="../../../tplimg/dian01.jpg" colspan="2" height="1"></td></tr>
+
+</table>
+</div>
+<!-------文章显示标题结束------>
+<img src="../../../tplimg/left_ico.gif" style="display:none;" /> <img src="../../../tplimg/right_ico.gif" style="display:none;" /> <img src="../../../tplimg/ico10.gif" style="display:none;" /> <img src="../../../tplimg/ico8.gif" style="display:none;" /> <img src="../../../tplimg/ico9.gif" style="display:none;" /> <img src="../../../tplimg/ti.gif" style="display:none;" /> <img src="../../../tplimg/fb.gif" style="display:none;" />
+</div></div>
+<script>writeErWeiMa();</script>
+<iframe id="tempForm"  
+            name="tempForm" src='' frameborder=0 width=0
+            scrolling=no height=0></iframe>
+</body>
+</html>
+<script language="javascript">
+function checkContent(){
+if(document.getElementById('ozoom')!=null&&document.getElementById('ozoom').offsetHeight<=357)
+	document.getElementById('ozoom').style.height = '357px';
+}
+</script>
+<SCRIPT language=Javascript src="../../../../juas/commons/js/disname2.js"></SCRIPT>
+<SCRIPT language=Javascript src="../../../tplimg/webdig_test.js"></SCRIPT>
+
+<!--mpproperty <founder-date>
+2017-07-07
+</founder-date>
+<founder-author>
+本报记者  吴月辉
+</founder-author>
+<founder-title>人工智能会取代人类吗（关注·“三问人工智能”②）
+</founder-title>
+<founder-nodename></founder-nodename>
+<founder-keyword>
+
+</founder-keyword><founder-ChannelID>
+1,921
+</founder-ChannelID><founder-imp>0</founder-imp>
+<founder-subtitle></founder-subtitle>
+<founder-type>1</founder-type>
+<founder-introtitle>“阿尔法狗”横扫棋坛，写稿机器人一分钟“出活”</founder-introtitle>
+<founder-pagepicurl>../../../page/2017-07/07/20/rmrb2017070720_b.jpg</founder-pagepicurl>
+<founder-pagenum>20</founder-pagenum>
+<founder-papername>人民日报</founder-papername>
+<founder-nodeid>1,941</founder-nodeid> /mpproperty-->
+
+

@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+JIANG Chunyang
+=======
+XU Yizhou
+>>>>>>> 65516a1315b2ef2e8f55c07e3c7a7fddf06ea92b
+Intelligence Artificielle

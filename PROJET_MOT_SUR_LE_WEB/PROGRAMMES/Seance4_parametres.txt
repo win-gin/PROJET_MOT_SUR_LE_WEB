@@ -1,0 +1,8 @@
+./URLS/seance4_test_liste0.txt
+./URLS/seance4_test_liste1.txt
+./URLS/seance4_test_liste2.txt
+./URLS/seance4_test_liste3.txt
+./TABLAUX/seance_test_tableau0.html
+./TABLAUX/seance_test_tableau1.html
+./TABLAUX/seance_test_tableau2.html
+./TABLAUX/seance_test_tableau3.html
