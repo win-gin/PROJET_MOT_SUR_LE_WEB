@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tableau URLs</title>
+		<meta charset = 'utf-8'>
+	</head>
+
+	<body>
+		<h2 align="center">Tableaux des URLs de teste</h2>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "8">Tableau-CN</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "10%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Encodage_initial</th>
+				<th width = "15%" align = "center">Dump_initial</th>
+				<th width = "10%" align = "center">Dump-utf8</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://paper.people.com.cn/rmrb/html/2017-07/07/nw.D110000renmrb_20170707_1-20.htm'>20171102-CN-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-CN-aspiree-1.html>20171102-CN-aspiree-1</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-1-utf8>20171102-CN-dump-1-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://zqb.cyol.com/html/2017-06/08/nw.D110000zgqnb_20170608_5-05.htm'>20171102-CN-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-CN-aspiree-2.html>20171102-CN-aspiree-2</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-2-utf8>20171102-CN-dump-2-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://epaper.oeeee.com/epaper/A/html/2016-03/13/content_17166.htm'>20171102-CN-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-CN-aspiree-3.html>20171102-CN-aspiree-3</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-3-utf8>20171102-CN-dump-3-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">4</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://world.people.com.cn/n1/2016/0706/c1002-28527803.html'>20171102-CN-lien-4</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-CN-aspiree-4.html>20171102-CN-aspiree-4</a></td>
+				<td align = "center">gb2312</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-4-gb2312>20171102-CN-dump-4-gb2312</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-4-utf8>20171102-CN-dump-4-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">5</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://scitech.people.com.cn/n1/2016/0626/c1007-28478489.html'>20171102-CN-lien-5</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-CN-aspiree-5.html>20171102-CN-aspiree-5</a></td>
+				<td align = "center">gb2312</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-5-gb2312>20171102-CN-dump-5-gb2312</a></td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-CN-dump-5-utf8>20171102-CN-dump-5-utf8</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "8">Tableau-EN</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "10%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Encodage_initial</th>
+				<th width = "15%" align = "center">Dump_initial</th>
+				<th width = "10%" align = "center">Dump-utf8</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'https://www.theguardian.com/science/2014/sep/18/machine-learning-artificial-intelligence'>20171102-EN-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-EN-aspiree-1.html>20171102-EN-aspiree-1</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-EN-dump-1-utf8>20171102-EN-dump-1-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://www.telegraph.co.uk/business/2017/09/22/smiths-group-looks-build-digital-forges-pioneer-new-tech/'>20171102-EN-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-EN-aspiree-2.html>20171102-EN-aspiree-2</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-EN-dump-2-utf8>20171102-EN-dump-2-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://www.independent.co.uk/life-style/gadgets-and-tech/deepmind-google-buys-uk-artificial-intelligence-start-up-for-242m-9087109.html'>20171102-EN-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-EN-aspiree-3.html>20171102-EN-aspiree-3</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-EN-dump-3-utf8>20171102-EN-dump-3-utf8</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+		<table border = "1" bordercolor = "#47baae" width = "80%" align = "center">
+			<tr height = "30px" bgcolor = "#47baae"><th colspan = "8">Tableau-FR</th></tr>
+			<tr>
+			<th width = "5%" align = "center">N°</th>
+				<th width = "10%" align = "center">Code_retour</th>
+				<th width = "15%" align = "center">Etat_de_lien</th>
+				<th width = "15%" align = "center">Lien</th>
+				<th width = "15%" align = "center">Page_aspirée</th>
+				<th width = "15%" align = "center">Encodage_initial</th>
+				<th width = "15%" align = "center">Dump_initial</th>
+				<th width = "10%" align = "center">Dump-utf8</th>
+			</tr>
+			<tr>
+				<td align = "center">1</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://www.lemonde.fr/festival/article/2017/09/23/yann-lecun-de-facebook-l-intelligence-artificielle-va-sauver-des-vies-mais-il-y-a-aussi-des-dangers_5190311_4415198.html?xtmc=intelligence_artificielle&xtcr=3'>20171102-FR-lien-1</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-FR-aspiree-1.html>20171102-FR-aspiree-1</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-FR-dump-1-utf8>20171102-FR-dump-1-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">2</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://www.lefigaro.fr/secteur/high-tech/2016/09/22/32001-20160922ARTFIG00001-l-intelligence-artificielle-nouvelle-arme-contre-les-commentaires-violents-sur-internet.php'>20171102-FR-lien-2</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-FR-aspiree-2.html>20171102-FR-aspiree-2</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-FR-dump-2-utf8>20171102-FR-dump-2-utf8</a></td>
+			</tr>
+			<tr>
+				<td align = "center">3</td>
+				<td align = "center">200</td>
+				<td align = "center">HTTP/1.1 301 Moved Permanently	
+HTTP/1.1 200 OK	</td>
+				<td align = "center"><a href = 'http://www.plurital.org'>20171102-FR-lien-3</a></td>
+				<td align = "center"><a href = ../PAGES-ASPIREES/20171102-FR-aspiree-3.html>20171102-FR-aspiree-3</a></td>
+				<td align = "center">utf-8</td>
+				<td align = "center">null</td>
+				<td align = "center"><a href = ../DUMP-TEXT/20171102-FR-dump-3-utf8>20171102-FR-dump-3-utf8</a></td>
+			</tr>
+		</table>
+
+		<br/>
+		<hr width = "80%" color = "#47baae" cb 9 size = "10">
+		<br/>
+	</body>
+</html>
